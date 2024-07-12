@@ -1,7 +1,7 @@
 name: Resume Challenge
 
 on:
-  workflow_dispatch:
+  
   push:
     branches:
       - main
@@ -37,9 +37,9 @@ jobs:
       - name: Terraform Init
         run: terraform init
 
-      #- name: Terraform Plan
-       # run: terraform plan -no-color
-       # continue-on-error: true
+      - name: Terraform Plan
+        run: terraform plan -no-color
+        continue-on-error: true
 
       - name: Terraform destroy
         run: terraform destroy -auto-approve
