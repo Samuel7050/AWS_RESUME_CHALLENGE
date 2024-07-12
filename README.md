@@ -44,7 +44,7 @@ In your GitHub repository, navigate to Settings > Secrets and variables and add 
 Whenever there is a push action on the main branch or a pull request to the main branch, the GitHub action is automatically triggered. See result of a push action to the main branch of the repository.
 
 
-To verify, copy the api_gateway_invoke_url/data as shown below and run on your browser. Note that /data is my api gateway path_part
-https://h7fizh3d13.execute-api.us-east-1.amazonaws.com/dev/data
+To verify, copy the api_gateway_invoke_url/data and run on your browser. ensure to add /data i.e my api gateway path_part.( you can have a different name)
+
 
 
